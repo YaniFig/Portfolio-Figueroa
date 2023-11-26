@@ -48,6 +48,8 @@ li{
     background-color: #ae61f7;
     border-radius: 2rem;
 }
+/*fin menu*/
+
 
 .body {
     font-size: 20px;
@@ -58,6 +60,8 @@ li{
     margin: 8px;
     
 }
+
+/*Inicio seccion hola*/
 
 .hola{
     display: flex;
@@ -107,6 +111,7 @@ li{
     width: 50%;
     max-width: 500%;
 }
+
 .hola_imagen_chica{
     display: flex;
     flex-direction: column;
@@ -114,10 +119,12 @@ li{
     width: auto;
     height: auto;
 
-
-
-
 }
+
+/*Fin seccion Hola*/
+
+/*Inicio seccion Conocimientos*/
+
 .Conocimientos{
     display: flex;
     flex-direction: column;
@@ -186,3 +193,32 @@ img{
 .figcaption{
     display: block;
 }
+/*Fin seccion Conocimientos*/
+
+/*Inicio seccion Cita*/
+
+.cita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    background-color: #d0a6f7;
+    font-size: 2rem;
+
+}
+
+
+.imagen_comilla{
+    justify-content: center;
+    width: auto;
+}
+
+.cita{
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+
