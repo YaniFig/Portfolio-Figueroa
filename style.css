@@ -15,9 +15,10 @@
     width: 100vw;
     background-color:rgb(204, 158, 246);
     font-size: 0.8rem;
-    padding: 1rem 4rem;
-    box-shadow: 0 0 1.2rem var(--sombras);
+    padding: 1rem;
+    box-shadow: 0 0 1.2rem ;
     position: fixed;
+    height: 40px;
 
 }
 
@@ -25,22 +26,27 @@
     margin: 0.1rem 0rem;
     display: flex;
     align-items: center;
+    margin-top: 1px;
+
+
 }
 
-.ul {
+.ul{
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    padding-inline-start: 10px;
     
-}
- 
+} 
 
+li{
+    margin: 10px;
+}
 .link-resaltado{
 
     background-color: #ae61f7;
-    border-radius: 1.2rem;
+    border-radius: 2rem;
 }
 
 .body {
@@ -48,6 +54,9 @@
     background-color: #d0a6f7;
     display: block;
     color: #d0a6f7;
+    height: 100%;
+    margin: 8px;
+    
 }
 
 .hola{
@@ -97,4 +106,83 @@
     justify-content: center;
     width: 50%;
     max-width: 500%;
+}
+.hola_imagen_chica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+
+
+
+}
+.Conocimientos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e8d2fc;
+
+}
+
+.Conocimientos_mensaje{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    margin:10px;
+}
+
+.Conocimientos_contenedor_tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0.5rem;
+    max-width: 100%;
+}
+
+.tecnologias{
+    
+    width: 30%;
+    height: 30%;
+    background-color: bisque;
+    border: solid 1px violet;
+    padding: 3.5rem 1.2rem;
+    border-radius: 15%;
+    margin: 0.25rem;
+
+}
+.tecnologias_titulo{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+}
+
+img{
+    
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 150px;
+    width: 30px;
+    margin: 20px;
+    
+    
+}
+
+.figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+
+}
+
+.tecnologias img{
+    width: 80%;
+}
+.figcaption{
+    display: block;
 }
