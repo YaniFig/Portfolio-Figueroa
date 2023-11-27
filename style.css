@@ -278,3 +278,52 @@ figcaption{
     font-family: 'Courgette', cursive;
 
 }
+/*Fin seccion proyectos*/
+
+/*Inicio seccion contacto*/
+
+.Contacto{
+    display: flex;
+    flex-direction: row;
+    background-color: #ad50ff;
+    padding: 10rem 3.5rem;
+}
+
+.Contacto_contenedor{
+    display: flex;
+    flex-direction: row ;
+    background-color: #e2c5ff;
+    border-radius: 1.4rem;
+    padding: 1.4rem;
+    width: 100%;
+}
+
+
+.Contacto_contenedor-izq{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.Contacto_contenedor-der{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    width: 50%;
+
+}
+
+.form-nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.nombres{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+
+}
