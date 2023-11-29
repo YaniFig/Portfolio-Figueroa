@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yanina Figueroa</title>
+    <script src="https://kit.fontawesome.com/046f90449c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -107,51 +108,51 @@
         <!--####beginning of section my projects####-->
         <section id="Proyectos" class="Proyectos">
             <section class="Proyectos_titulo">
-                <h2>Mis Proyectos</h2>
-                <p>Estos son algunos de los desarrollos en los que trabaje durante mi formacion profecional; podes ingresar a revisar cada uno de ellos.</p>
+                <h2 class="titulo_main_proyecto">Mis Proyectos</h2>
+                <p>Estos son algunos de los desarrollos en los que trabaje durante mi formacion profesional; podes ingresar a revisar cada uno de ellos.</p>
             </section>
             <section class="Proyectos_contenedor">
                 <figure class="card_proyecto">
-                    <a href="">
+                    <a class="proyectos_link" href="">
                         <img src="imagenes/Proyectos/portfolio.png" alt="Portfolio" class="imagen_proyecto">
                         <figcaption>Portfolio</figcaption>
                     </a>
                     
                 </figure>
                 <figure class="card_proyecto">
-                    <a href="">
+                    <a class="proyectos_link" href="">
                         <img src="imagenes/Proyectos/editor de memes.png" alt="Generador de memes" class="imagen_proyecto">
                         <figcaption>Generador de memes</figcaption>
 
                     </a>
                 </figure>
                 <figure class="card_proyecto">
-                    <a href="">
+                    <a class="proyectos_link" href="">
                         <img src="imagenes/Proyectos/match3.png" alt="Match3" class="imagen_proyecto">
                         <figcaption>Match 3</figcaption>
                     </a>
                 </figure>
                 <figure class="card_proyecto">
-                    <a href="">
+                    <a class="proyectos_link" href="">
                         <img src="imagenes/Proyectos/controlador de gastos.png" alt="Controlador de gastos" class="imagen_proyecto">
                         <figcaption>Controlador de Gastos</figcaption>
                     </a>
                 </figure>
                 <figure class="card_proyecto">
-                    <a href="">
+                    <a class="proyectos_link" href="">
                         <img src="imagenes/Proyectos/administrador de reuniones.png" alt="Administrador de reunione" class="imagen_proyecto">
                         <figcaption>Administrador de reuniones</figcaption>
                     
                     </a>
                 </figure>
                 <figure class="card_proyecto">
-                    <a href="">
+                    <a class="proyectos_link" href="">
                         <img src="imagenes/Proyectos/todo app.png" alt="Todo App" class="imagen_proyecto">
                         <figcaption>Todo App</figcaption>
                     </a>
                 </figure>
                 <figure class="card_proyecto">
-                    <a href="">
+                    <a class="proyectos_link" href="">
                         <img src="imagenes/Proyectos/buscador de peliculas.png" alt="Buscador de peliculas" class="imagen_proyecto">
                         <figcaption>Buscador de Peliculas</figcaption>
                     </a>
@@ -173,19 +174,19 @@
                                 <ul>
                                     <li>
                                         <a href="https://www.linkedin.com/in/figueroa-yanina-daniela-8ba418238/">
-                                             <i></i>
-                                             Figueroa Yanina Daniela
+                                            <i class="fa-brands fa-linkedin"></i>
+                                            Figueroa Yanina Daniela
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://github.com/YaniFig">
-                                            <i></i>
+                                            <i class="fa-brands fa-github"></i>
                                             /YaniFig
                                         </a>
                                     </li>
                                     <li>
                                         <a href="mailto:yaninafigueroa93@gmail.com?Subject=Contacto%20Frontend">
-                                            <i></i>
+                                             <i class="fa-solid fa-envelope"></i>
                                             Yaninafigueroa93@gmail.com
                                         </a>
                                     </li>
@@ -195,22 +196,24 @@
                          <h2>Escribime</h2>
                             <form action>
                                 <article class="form-nombre">
-                                    <article class="nombres" >
-                                         <label for="firstname">Nombre</label>
-                                             <input type="text" placeholder="Ej: Ada" required>
-                                    </article>
-                                    <article class="nombres">
-                                         <label for="lastname">Apellido</label>
-                                             <input type="text" placeholder="Ej: Lovelace" required>
-                                    </article>
+                                    <div class="contenedor_nombre_apellido">
+                                        <article class="nombres" >
+                                            <label for="firstname">Nombre</label>
+                                                <input type="text" placeholder="Ej: Ada" required class="contenedor-datos">
+                                       </article>
+                                       <article class="nombres">
+                                            <label for="lastname">Apellido</label>
+                                                <input type="text" placeholder="Ej: Lovelace" required class="contenedor-datos">
+                                       </article>
+                                    </div>
                                     <article class="nombres">
                                          <label for="email">E-mail</label>
-                                              <input type="text" placeholder="Ej: adalovelace@gmail.com" required>
+                                              <input type="text" placeholder="Ej: adalovelace@gmail.com" required class="contenedor-datos">
                                     </article>
                                     <article class="nombres">
                                          <label for="message">Mensaje</label>
-                                             <textarea type="text" placeholder ="Escriba su menssaje aqui." required></textarea>
-                                                 <button>Enviar</button>
+                                             <textarea type="text" placeholder ="Escriba su mensaje aqui." required class="contenedor-datos"></textarea>
+                                             <button class="contenedor-boton">Enviar</button>
                                     </article>       
                                </article>
                             </form>
@@ -224,30 +227,42 @@
         <nav class="footer-nav">
             <ul class="footer-nav-menu">
                 <li class="footer-nav-item">
-                    <a href="">Hola</a>
+                    <a href="#Hola">Hola</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a href="">Conocimientos</a>
+                    <a href="#Conocimientos">Conocimientos</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a href="">Proyectos</a>
+                    <a href="#Proyectos">Proyectos</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a href="">Contacto</a>
+                    <a href="#Contacto">Contacto</a>
                 </li>
 
             </ul>
         </nav>
         <section>
-            <ul>
+            <ul class="footer-iconos">
                 <li>
-                    <a href=""></a>
+                    <a href="https://www.linkedin.com/in/figueroa-yanina-daniela-8ba418238/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/YaniFig">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:yaninafigueroa93@gmail.com?Subject=Contacto%20Frontend">
+                        <i class="fa-solid fa-envelope"></i>
+                   </a>  
                 </li>
             </ul>
         </section>
         <section>
                 <p>
-                    Hecho por Yani Figueroa
+                    Hecho con <i class="fa-solid fa-heart" style="color: #da0b0b;"></i> por Yani Figueroa
                 </p>
         </section>
 

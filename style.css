@@ -12,7 +12,7 @@
 .menu {
     display: flex;
     justify-content: flex-end;
-    width: 100vw;
+    width: 100%;
     background-color:rgb(204, 158, 246);
     font-size: 0.8rem;
     padding: 1rem;
@@ -20,6 +20,9 @@
     position: fixed;
     height: 40px;
 
+}
+main{
+    width: 100%;
 }
 
 .menu_ul{
@@ -47,6 +50,8 @@ li{
 
     background-color: #ae61f7;
     border-radius: 2rem;
+    padding: 0.4rem;
+    justify-content: center;
 }
 /*fin menu*/
 
@@ -57,8 +62,7 @@ li{
     display: block;
     color: #d0a6f7;
     height: 100%;
-    margin: 8px;
-    
+    width: 100vw;
 }
 
 /*Inicio seccion hola*/
@@ -117,9 +121,11 @@ li{
     flex-direction: column;
     justify-content: center;
     width: auto;
-    height: auto;
-
+    height: 250px;
 }
+
+
+
 
 /*Fin seccion Hola*/
 
@@ -130,71 +136,62 @@ li{
     flex-direction: column;
     justify-content: center;
     background-color: #f6ecff;
-
 }
 
 .Conocimientos_mensaje{
+    margin-top: 5rem;
     text-align: center;
     width: 50%;
     align-self: center;
-    margin:10px;
 }
 
 .Conocimientos_contenedor_tecnologias{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    padding: 2rem 0.5rem;
-    max-width: 100%   
-
+    align-items: center;
+    padding: 3rem 5.5rem;
 }
 
 .tecnologias{
-    
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
     height: 30%;
     background-color: rgb(250, 237, 222);
     border: solid 1px violet;
-    padding: 3.5rem 1.2rem;
+    padding: 4rem 1.5rem;
     border-radius: 15%;
-    margin: 0.25rem;
-
+    margin: 0.5rem;
 }
 .tecnologias_titulo{
-    font-size: 45px;
-    font-weight: 900;
+    font-size: 35px;
+    font-weight: 800;
     line-height: 1.2;
     text-align: center;
 }
 
 img{
-    
     overflow-clip-margin: content-box;
     overflow: clip;
-    height: 150px;
-    width: 30px;
-    margin: 20px;
-    
-    
+    height: 90px;
+    align-self: center;
+    padding: 0rem 0.5rem;
 }
 
 .figure{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-
+    display: flex;
+    margin: 10px
 }
 
 .tecnologias img{
     width: 80%;
 }
-.figcaption{
-    display: block;
-}
+
+
 /*Fin seccion Conocimientos*/
+
 
 /*Inicio seccion Cita*/
 
@@ -205,7 +202,7 @@ img{
     text-align: center;
     width: 100%;
     height: 100%;
-    padding: 1.5rem;
+    padding: 3rem;
     background-color: #d4b4f1;
     font-size: 2rem;
 
@@ -239,46 +236,54 @@ img{
     text-align: center;
     width: 65%;
     align-self: center;
-
 }
+
 
 .Proyectos_contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding: 2rem 0.5rem;
     width: 100%;
 
 }
 
 .card_proyecto{
-    overflow-clip-margin: content-box;
-    overflow: visible;
     justify-content: center;
-    width: 30%;
+    align-items: center;
+    width: 23%;
+    height: 230px;
     background-color: #e2c5ff;
-    padding: 3rem 2.8rem;
-    margin: 0.5rem;
+    padding: 1rem 0.5rem;
     border-radius: 5%;
     border:solid 2px #2e0159;
+    margin: 10px;
 }
 
 .imagen_proyecto{
     border-radius: 15%;
     height: 100px;
-    width: 100%;
+    width: 80%;
     justify-content: center;
-    margin: auto;
-
 }
 
 figcaption{
     text-align: center;
     justify-content: center;
-    margin:5px;
+    padding:5px;
     font-family: 'Courgette', cursive;
-
+    width: 100%;
 }
+
+.proyectos_link{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
 /*Fin seccion proyectos*/
 
 /*Inicio seccion contacto*/
@@ -325,10 +330,32 @@ figcaption{
 .nombres{
     display: flex;
     flex-direction: column;
-    width: 49%;
+    width: 100%;
 
 }
+.contenedor_nombre_apellido{
+    display: flex;
+}
 
+.contenedor-datos{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    border: none;
+    margin-top: o.4rem ;
+}
+
+.contenedor-boton{
+    align-self: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 1rem;
+}
 /*Fin seccion contacto*/
 
 /*Inicio seccion footer*/
@@ -352,3 +379,12 @@ footer{
 .footer-nav-menu{
     margin: 0 10px;
 }
+
+.footer-iconos{
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+
+
