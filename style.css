@@ -417,13 +417,14 @@ footer{
         padding: 1.75rem 0.25rem ;
     }
     .conocimientos_mensaje, .proyectos_titulo{
-        width: 85%;
+        width: 60%;
     }
     .conocimientos_contenedor_tecnologias, .tecnologias{
         display: flex;
         flex-wrap: column;
         align-self: center;
         justify-content: center;
+        width: 60%;
     }
     .conocimientos_contenedor_tecnologias, .proyectos_contenedor{
         width: 100%;
@@ -432,7 +433,7 @@ footer{
     .tecnologias, .card_proyecto{
         display: flex;
         flex-direction: column;
-        width: 85%;
+        width: 60%;
         padding: 1.5rem;
         text-align: center;
     }
