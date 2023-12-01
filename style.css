@@ -571,7 +571,9 @@ footer{
 /*PANTALLAS ANCHAS*/
 
 @media (min-width: 1000px) and (max-width: 2500px){
-  
+    body{
+        font-size: 2rem;
+    }
     .hola{
         text-align: center;
         padding: 6rem;
