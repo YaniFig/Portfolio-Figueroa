@@ -305,19 +305,11 @@ figcaption{
 }
 
 
-.contacto_contenedor-izq{
+.contacto_contenedor-izq, .contacto_contenedor-der{
     display: flex;
     flex-direction: column;
     padding-right: 20px;
     width: 50%;
-}
-
-.contacto_contenedor-der{
-    display: flex;
-    flex-direction: column;
-    padding-right: 20px;
-    width: 50%;
-
 }
 
 .form-nombre{
@@ -576,13 +568,89 @@ footer{
     }
 }
 
-/*HOVERS*/
+/*PANTALLAS ANCHAS*/
+
+@media (min-width: 1000px) and (max-width: 2500px){
+  
+    .hola{
+        text-align: center;
+        padding: 6rem;
+    }
+    .boton{
+        align-self: center;
+        width:50%;
+    }
+    .conocimientos, .proyectos, .contacto_contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.75rem 0.25px;
+    }
+    .conocimientos_mensaje, .proyectos_titulo, .tecnologias_titulo{
+        width: 60%;
+        padding-top: 1.5rem;
+    }
+    .conocimientos_contenedor_tecnologias, .proyectos_contenedor{
+        width: 100%;
+        padding: 2rem 0.5rem;
+    }
+    .tecnologias, .card_proyecto{
+        width: 40%;
+        padding: 2.5rem 2.5rem;
+        height: 400px;
+    }
+    .tecnologias img, .card_proyecto img{
+        width: 60%;
+        height: 70%;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        background-color:var(--color-intensidad3);
+        padding: 10rem 3.5rem;
+    }
+    
+    .contacto_contenedor{
+        display: flex;
+        flex-direction: row ;
+        background-color:var(--color-intensidad2);
+        border-radius: 1.4rem;
+        padding: 1.4rem;
+        width: 100%;
+    }
+    
+    .contacto_contenedor-izq, .contacto_contenedor-der{
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+        width: 50%;
+    }
+    
+    .form-nombre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .nombres{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .contenedor_nombre_apellido{
+        display: flex;
+    }
+}
+/* Inicio HOVERS*/
 
 .boton:hover, .contenedor-boton:hover{
     background-color:var(--color-intensidad2);
     box-shadow: 0 0 1.25rem;
     border: solid 1px;
 }
+
 .contenedor-boton:hover{
     background-color:var(--color-intensidad3);
 }
@@ -607,6 +675,7 @@ footer{
     border: solid 1px var(--color-fuente);
     box-shadow: 0 0 1.25rem;
 }
+/*Fin Hovers*/
 /*Focus*/
 .contacto_contenedor-der form input:focus,
 .contacto_contenedor-der form textarea:focus{
