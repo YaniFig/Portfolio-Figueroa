@@ -394,8 +394,8 @@ footer{
         padding: 1rem 0rem;
         text-align: center;
     }
-    .hola__presentacion,
-    .hola_presentacion_descripcion, .hola__imagen{
+    .hola_presentacion,
+    .hola_presentacion_descripcion, .hola_imagen{
         width: 80vw;
         align-items: center;
         align-self: center;
@@ -475,7 +475,7 @@ footer{
         width: 100%;
     }
     
-    .footer__menu{
+    .footer_menu{
         display: none;
     }   
 }
@@ -496,8 +496,8 @@ footer{
         text-align: center;
         height: 40rem;
     }
-    .hola__presentacion,
-    .hola__imagen img{
+    .hola_presentacion,
+    .hola_imagen img{
         width: 80vw;
         align-items: center;
         align-self: center;
@@ -507,25 +507,25 @@ footer{
         align-self: center;
         width: 40vw;
     }
-    .conocimientos, .proyectos, .contacto__contenedor{
+    .conocimientos, .proyectos, .contacto_contenedor{
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 1.75rem 0.25px;
     }
-    .conocimientos__mensaje, .proyectos__titulo{
+    .conocimientos_mensaje, .proyectos_titulo{
         width: 85%;
     }
-    .conocimientos__contenedor__tecnologias, .proyectos__contenedor{
+    .conocimientos_contenedor_tecnologias, .proyectos__contenedor{
         width: 100%;
         padding: 2rem 0.5rem;
     }
-    .tecnologias, .card__proyecto{
+    .tecnologias, .card_proyecto{
         width: 40%;
         padding: 2.5rem 1.75rem;
         height: 400px;
     }
-    .tecnologias img, .card__proyecto img{
+    .tecnologias img, .card_proyecto img{
         width: 80%;
     }
     .contacto{
